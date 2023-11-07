@@ -25,3 +25,22 @@ select age, lastName from users;
 alter table users
 add id int identity(1,1) primary key;
 
+use datadb;
+
+select lastName as apellido, name as nombre from users;
+
+select * from users order by lastname;
+select * from users order by name;
+select * from users order by age;
+
+select * from users order by age asc;
+select * from users order by age desc;
+select * from users order by name asc;
+select * from users order by lastName desc;
+select * from users order by name desc;
+
+select * from users;
+
+
+
+
