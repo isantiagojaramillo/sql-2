@@ -75,5 +75,18 @@ select * from users where id = 15;
 
 select * from users where age < 30;
 
+select * from users where name = 'Emily' or name = 'Linda';
+
+select * from users where name = 'emily' or name = 'linda' and id = 16;
+
+select * from users where not name = 'Linda';
+
+select * from users where not name = 'Linda' and not name = 'SANTI';
+
+select * from users where not name = 'Linda' OR not name = 'SANTI';
+
+select * from users where age >= 20 and age <=25 and not name = 'santi'; 
+
+select top 5 * from users where age >= 20 and not name = 'santi';
 
 
