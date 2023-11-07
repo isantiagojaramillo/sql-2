@@ -41,6 +41,39 @@ select * from users order by name desc;
 
 select * from users;
 
+INSERT INTO users (name, lastName, age)
+VALUES
+    ('John', 'Doe', 30),
+    ('Jane', 'Smith', 25),
+    ('Michael', 'Johnson', 35),
+    ('Emily', 'Brown', 28),
+    ('David', 'Wilson', 40),
+    ('Sarah', 'Jones', 22),
+    ('Robert', 'Davis', 33),
+    ('Jennifer', 'Miller', 27),
+    ('William', 'Martinez', 31),
+    ('Linda', 'Garcia', 29),
+    ('James', 'Anderson', 37),
+    ('Patricia', 'Hernandez', 24),
+    ('Joseph', 'Thompson', 32),
+    ('Maria', 'White', 26),
+    ('Charles', 'Clark', 38),
+    ('Nancy', 'Lee', 23),
+    ('Thomas', 'Walker', 34),
+    ('Karen', 'Hall', 31),
+    ('Daniel', 'Lopez', 29),
+    ('Susan', 'Turner', 35),
+    ('Matthew', 'Baker', 28),
+    ('Lisa', 'Harris', 30),
+    ('Donald', 'Green', 36),
+    ('Jessica', 'Young', 25),
+    ('Paul', 'Lewis', 33);
+
+select * from users;
+
+select * from users where id = 15;
+
+select * from users where age < 30;
 
 
 

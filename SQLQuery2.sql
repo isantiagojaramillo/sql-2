@@ -22,3 +22,17 @@ select * from medicalTurns;
 insert into medicalTurns (doctor, id_users, motive, schedule)
 values
 ('Dr. Chase', 5, 'broken heart', '12/21/2023 2:40pm');
+
+use datadb;
+
+select * from medicalTurns;
+
+delete from medicalTurns where id = 5;
+
+update medicalTurns set schedule = '3:40pm' where id = 6;
+
+select * from medicalTurns;
+
+update medicalTurns set schedule = '12/03/2023 3:40pm' where id = 6;
+
+select * from medicalTurns;
