@@ -107,4 +107,6 @@ select * from users where lastName like 'p___z';
 
 select * from users;
 
+select * from users where lastName in ('perez', 'johnson', 'sepulveda');
+
 
