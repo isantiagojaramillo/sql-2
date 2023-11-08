@@ -89,4 +89,8 @@ select * from users where age >= 20 and age <=25 and not name = 'santi';
 
 select top 5 * from users where age >= 20 and not name = 'santi';
 
+use datadb;
+
+select * from users where age != 30;
+
 
