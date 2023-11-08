@@ -109,4 +109,21 @@ select * from users;
 
 select * from users where lastName in ('perez', 'johnson', 'sepulveda');
 
+-- AGGREGATION FUNCTIONS
+select COUNT(name) from users;
+
+select COUNT(name) as quantity_of_names from users;
+
+SELECT SUM(age) as total_sum_age from users;
+
+select AVG(age) as average_age from users;
+
+select ROUND(AVG(age), 2) as average_rounded_age from users; 
+
+select MIN(age) as minimum_age from users;
+
+select MAX(age) as maximum_age from users;
+
+
+
 
