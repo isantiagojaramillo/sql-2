@@ -95,4 +95,16 @@ select * from users where age != 30;
 
 select * from users where age between 30 and 35;
 
+select * from users where lastName like 'Johnson';
+
+select * from users where lastName like '%r';
+
+select * from users where lastName like 's%'; 
+
+select * from users where lastName like '%s%';
+
+select * from users where lastName like 'p___z';
+
+select * from users;
+
 
