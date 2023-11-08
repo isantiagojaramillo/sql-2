@@ -93,4 +93,6 @@ use datadb;
 
 select * from users where age != 30;
 
+select * from users where age between 30 and 35;
+
 
